@@ -1,0 +1,13 @@
+﻿int x = 14;
+int y = 1;
+int z = 5;
+x += y - x++ * z;
+Console.WriteLine($"X = {x}, Y = {y}, Z = {z}");
+z = --x - y * 5;
+Console.WriteLine($"X = {x}, Y = {y}, Z = {z}");
+y /= x + 5 % z;
+Console.WriteLine($"X = {x}, Y = {y}, Z = {z}");
+z = x++ + y * 5;
+Console.WriteLine($"X = {x}, Y = {y}, Z = {z}");
+x = y - x++ * z;
+Console.WriteLine($"X = {x}, Y = {y}, Z = {z}");
